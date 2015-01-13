@@ -8,11 +8,26 @@
 
 import UIKit
 
+let title = "TestTitle"
+let titleIcon = "Icon.png"
+let description = "Test Description ..."
+let backgroundImg = "bg.png"
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var pageOne = PMInterPage()
+        pageOne.title = title!
+        pageOne.titleIcon = titleIcon
+        pageOne.desc = description
+        pageOne.bgImg = backgroundImg
+        
+        var interView = PMInterView(frame:self.view.bounds)
+        interView.addPage(pageOne)
+        interView.show()
     }
 
     override func didReceiveMemoryWarning() {

@@ -13,6 +13,8 @@
 		212BD4411A65954500CB8FD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212BD4401A65954500CB8FD5 /* Images.xcassets */; };
 		212BD4441A65954500CB8FD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212BD4421A65954500CB8FD5 /* LaunchScreen.xib */; };
 		212BD4501A65954500CB8FD5 /* PMInterViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BD44F1A65954500CB8FD5 /* PMInterViewTests.swift */; };
+		212BD45C1A6596A800CB8FD5 /* PMInterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BD45B1A6596A800CB8FD5 /* PMInterPage.swift */; };
+		212BD4601A65973A00CB8FD5 /* PMInterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BD45F1A65973A00CB8FD5 /* PMInterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		212BD4491A65954500CB8FD5 /* PMInterViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMInterViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		212BD44E1A65954500CB8FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		212BD44F1A65954500CB8FD5 /* PMInterViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMInterViewTests.swift; sourceTree = "<group>"; };
+		212BD45B1A6596A800CB8FD5 /* PMInterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PMInterPage.swift; path = Source/PMInterView/PMInterPage.swift; sourceTree = "<group>"; };
+		212BD45F1A65973A00CB8FD5 /* PMInterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PMInterView.swift; path = Source/PMInterView/PMInterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		212BD42B1A65954500CB8FD5 = {
 			isa = PBXGroup;
 			children = (
+				212BD4591A65960800CB8FD5 /* Source */,
 				212BD4361A65954500CB8FD5 /* PMInterView */,
 				212BD44C1A65954500CB8FD5 /* PMInterViewTests */,
 				212BD4351A65954500CB8FD5 /* Products */,
@@ -112,6 +117,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		212BD4591A65960800CB8FD5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				212BD45A1A65962A00CB8FD5 /* PMInterView */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		212BD45A1A65962A00CB8FD5 /* PMInterView */ = {
+			isa = PBXGroup;
+			children = (
+				212BD45B1A6596A800CB8FD5 /* PMInterPage.swift */,
+				212BD45F1A65973A00CB8FD5 /* PMInterView.swift */,
+			);
+			name = PMInterView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +178,7 @@
 		212BD42C1A65954500CB8FD5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PM;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = ProjM;
 				TargetAttributes = {
@@ -212,7 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				212BD45C1A6596A800CB8FD5 /* PMInterPage.swift in Sources */,
 				212BD43C1A65954500CB8FD5 /* ViewController.swift in Sources */,
+				212BD4601A65973A00CB8FD5 /* PMInterView.swift in Sources */,
 				212BD43A1A65954500CB8FD5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
