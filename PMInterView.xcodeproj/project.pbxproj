@@ -15,6 +15,14 @@
 		212BD4501A65954500CB8FD5 /* PMInterViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BD44F1A65954500CB8FD5 /* PMInterViewTests.swift */; };
 		212BD45C1A6596A800CB8FD5 /* PMInterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BD45B1A6596A800CB8FD5 /* PMInterPage.swift */; };
 		212BD4601A65973A00CB8FD5 /* PMInterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BD45F1A65973A00CB8FD5 /* PMInterView.swift */; };
+		212BD4971A6A487100CB8FD5 /* bg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 212BD48F1A6A487000CB8FD5 /* bg1@2x.png */; };
+		212BD4981A6A487100CB8FD5 /* bg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 212BD4901A6A487000CB8FD5 /* bg2@2x.png */; };
+		212BD4991A6A487100CB8FD5 /* bg3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 212BD4911A6A487000CB8FD5 /* bg3@2x.png */; };
+		212BD49A1A6A487100CB8FD5 /* bg4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 212BD4921A6A487100CB8FD5 /* bg4@2x.png */; };
+		212BD49B1A6A487100CB8FD5 /* title1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 212BD4931A6A487100CB8FD5 /* title1@2x.png */; };
+		212BD49C1A6A487100CB8FD5 /* title2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 212BD4941A6A487100CB8FD5 /* title2@2x.png */; };
+		212BD49D1A6A487100CB8FD5 /* title3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 212BD4951A6A487100CB8FD5 /* title3@2x.png */; };
+		212BD49E1A6A487100CB8FD5 /* title4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 212BD4961A6A487100CB8FD5 /* title4@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,14 @@
 		212BD44F1A65954500CB8FD5 /* PMInterViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMInterViewTests.swift; sourceTree = "<group>"; };
 		212BD45B1A6596A800CB8FD5 /* PMInterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PMInterPage.swift; path = Source/PMInterView/PMInterPage.swift; sourceTree = "<group>"; };
 		212BD45F1A65973A00CB8FD5 /* PMInterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PMInterView.swift; path = Source/PMInterView/PMInterView.swift; sourceTree = "<group>"; };
+		212BD48F1A6A487000CB8FD5 /* bg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg1@2x.png"; path = "Resource/bg1@2x.png"; sourceTree = "<group>"; };
+		212BD4901A6A487000CB8FD5 /* bg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg2@2x.png"; path = "Resource/bg2@2x.png"; sourceTree = "<group>"; };
+		212BD4911A6A487000CB8FD5 /* bg3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg3@2x.png"; path = "Resource/bg3@2x.png"; sourceTree = "<group>"; };
+		212BD4921A6A487100CB8FD5 /* bg4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg4@2x.png"; path = "Resource/bg4@2x.png"; sourceTree = "<group>"; };
+		212BD4931A6A487100CB8FD5 /* title1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "title1@2x.png"; path = "Resource/title1@2x.png"; sourceTree = "<group>"; };
+		212BD4941A6A487100CB8FD5 /* title2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "title2@2x.png"; path = "Resource/title2@2x.png"; sourceTree = "<group>"; };
+		212BD4951A6A487100CB8FD5 /* title3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "title3@2x.png"; path = "Resource/title3@2x.png"; sourceTree = "<group>"; };
+		212BD4961A6A487100CB8FD5 /* title4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "title4@2x.png"; path = "Resource/title4@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,7 @@
 		212BD42B1A65954500CB8FD5 = {
 			isa = PBXGroup;
 			children = (
+				212BD47C1A6A450E00CB8FD5 /* Resource */,
 				212BD4591A65960800CB8FD5 /* Source */,
 				212BD4361A65954500CB8FD5 /* PMInterView */,
 				212BD44C1A65954500CB8FD5 /* PMInterViewTests */,
@@ -134,6 +151,21 @@
 			name = PMInterView;
 			sourceTree = "<group>";
 		};
+		212BD47C1A6A450E00CB8FD5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				212BD48F1A6A487000CB8FD5 /* bg1@2x.png */,
+				212BD4901A6A487000CB8FD5 /* bg2@2x.png */,
+				212BD4911A6A487000CB8FD5 /* bg3@2x.png */,
+				212BD4921A6A487100CB8FD5 /* bg4@2x.png */,
+				212BD4931A6A487100CB8FD5 /* title1@2x.png */,
+				212BD4941A6A487100CB8FD5 /* title2@2x.png */,
+				212BD4951A6A487100CB8FD5 /* title3@2x.png */,
+				212BD4961A6A487100CB8FD5 /* title4@2x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,6 +216,7 @@
 				TargetAttributes = {
 					212BD4331A65954500CB8FD5 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7ARWKX4JSR;
 					};
 					212BD4481A65954500CB8FD5 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -216,8 +249,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				212BD43F1A65954500CB8FD5 /* Main.storyboard in Resources */,
+				212BD49A1A6A487100CB8FD5 /* bg4@2x.png in Resources */,
+				212BD4991A6A487100CB8FD5 /* bg3@2x.png in Resources */,
+				212BD49E1A6A487100CB8FD5 /* title4@2x.png in Resources */,
+				212BD4971A6A487100CB8FD5 /* bg1@2x.png in Resources */,
 				212BD4441A65954500CB8FD5 /* LaunchScreen.xib in Resources */,
+				212BD49B1A6A487100CB8FD5 /* title1@2x.png in Resources */,
 				212BD4411A65954500CB8FD5 /* Images.xcassets in Resources */,
+				212BD49C1A6A487100CB8FD5 /* title2@2x.png in Resources */,
+				212BD4981A6A487100CB8FD5 /* bg2@2x.png in Resources */,
+				212BD49D1A6A487100CB8FD5 /* title3@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,20 +401,30 @@
 		212BD4541A65954500CB8FD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PMInterView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		212BD4551A65954500CB8FD5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PMInterView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -430,6 +481,7 @@
 				212BD4551A65954500CB8FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212BD4561A65954500CB8FD5 /* Build configuration list for PBXNativeTarget "PMInterViewTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +490,7 @@
 				212BD4581A65954500CB8FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
